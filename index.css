@@ -4,7 +4,7 @@ display:flex;
 justify-content: flex-end;
 gap: 2em;
 padding-top: 1em;
-padding-bottom  1em;
+padding-bottom: 1em;
 }
 
 #main{
@@ -21,3 +21,6 @@ width: 50%;}
 #right-col {
     background-color: rgb(255, 140, 188);
 width: 50%;}
+
+#hero{
+}
