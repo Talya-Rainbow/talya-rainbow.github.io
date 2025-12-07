@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 #navbar{
     background-color: rgb(200, 235, 238);
 display:flex;
@@ -13,8 +17,21 @@ display: flex;
 height: 100%;
 }
 
-.nav-link{background-color:rgb(237, 192, 186);
+.nav-link {
+    color: rgb(173, 173, 173);
 }
+
+.nav-link a{
+    text-decoration: none;
+    color:rgb(142, 50, 150);
+    text-shadow: 0.1em 0.1em 0.2em rgba(77, 8, 77, 0.538);
+}
+
+.nav-link a:hover {
+    text-decoration: underline; 
+    color:rgb(84, 18, 84)
+}
+
 #left-col {
     background-color: rgb(172, 172, 242);
 width: 50%;}
@@ -23,4 +40,10 @@ width: 50%;}
 width: 50%;}
 
 #hero{
+}
+
+.secret-link {
+    position: fixed;
+    top:0em;
+    right:0em
 }
