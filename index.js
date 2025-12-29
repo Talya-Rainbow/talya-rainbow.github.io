@@ -3,9 +3,9 @@ console.log("hello world");
 let secret = document.getElementsByClassName('secret-link')[0]; 
 
 secret.addEventListener('mouseenter',function() {
-    secret.style.top = Math.random() * 100 + 'em';
-});
-
+    secret.style.top = Math.random() * 97 + '%';
+    secret.style.right = Math.random() * 96 + '%';
+})
 
 let stylish = document.getElementById("stylish");
 console.log(stylish);
@@ -21,4 +21,4 @@ function makeRandomColor() {
     let b=Math.floor(Math.random() * 256);
      let color= `rgb(${r}, ${g}, ${b})`
 return color
-    }
+}

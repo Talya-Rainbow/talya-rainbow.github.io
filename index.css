@@ -1,5 +1,7 @@
 body{
     overflow: hidden;
+         background-color: rgb(227, 184, 227);
+
 }
 
 #navbar{
@@ -12,9 +14,16 @@ padding-bottom: 1em;
 }
 
 #main{
-     background-color: rgb(227, 184, 227);
 display: flex;
 height: 100%;
+position: fixed;
+    background: white;
+    height: 30em;
+    width: 40em;
+    justify-self: center;
+    align-self: anchor-center;
+    border-radius: 10em;
+    box-shadow: 0.3em .3em;
 }
 
 .nav-link {
@@ -40,9 +49,10 @@ width: 50%;}
 width: 50%;}
 
 #hero{
+    height: 100%;
 }
 
-.secret-link {
+.secret-link {  transition: all 0.3s;
     position: fixed;
     top:1.5em;
     right:25em;
@@ -52,5 +62,6 @@ width: 50%;}
 cursor: pointer; 
 }
 #stylish{
-    font-size: 2em;
+    font-size: 2em; 
+    transition: all 0.3s;
 }
