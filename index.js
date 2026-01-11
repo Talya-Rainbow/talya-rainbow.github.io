@@ -21,4 +21,12 @@ function makeRandomColor() {
     let b=Math.floor(Math.random() * 256);
      let color= `rgb(${r}, ${g}, ${b})`
 return color
+}  
+let a = 5 
+console.log(a);
+
+function add3 (i){
+    i=i + 3;
+    return i; 
+
 }

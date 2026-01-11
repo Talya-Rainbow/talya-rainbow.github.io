@@ -55,7 +55,7 @@ width: 50%;}
 .secret-link {  transition: all 0.3s;
     position: fixed;
     top:1.5em;
-    right:25em;
+    right:27em;
         text-decoration: none;
     color:rgb(142, 50, 150);
     text-shadow: 0.1em 0.1em 0.2em rgba(77, 8, 77, 0.538);
@@ -64,4 +64,17 @@ cursor: pointer;
 #stylish{
     font-size: 2em; 
     transition: all 0.3s;
+}
+.game-container{
+display: flex;
+height: 100%;
+position: fixed;
+    background: white;
+    height: 30em;
+    width: 40em;
+    justify-self: center;
+    align-self: anchor-center;
+    border-radius: 10em;
+    box-shadow: 0.3em .3em;
+
 }
